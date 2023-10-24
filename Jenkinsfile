@@ -2,7 +2,7 @@ pipeline {
 //  agent {label 'linux'}
   agent {
     docker {
-      image 'node:18.18.0-alpine3.18'    
+      image 'applicationa/jenkins-slave-java-gradle'    
             // Run the container on the node specified at the
                     // top-level of the Pipeline, in the same workspace,
                     // rather than on a new node entirely:
